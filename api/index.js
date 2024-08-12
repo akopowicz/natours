@@ -1,11 +1,11 @@
-// import app from './app.js';
+import app from './app.js';
 
-// export default app;
-const express = require('express');
-const app = express();
+export default app;
+// const express = require('express');
+// const app = express();
 
-app.get('/', (req, res) => res.send('Express on Vercel'));
+// app.get('/', (req, res) => res.send('Express on Vercel'));
 
-app.listen(3000, () => console.log('Server ready on port 3000.'));
+// app.listen(3000, () => console.log('Server ready on port 3000.'));
 
-module.exports = app;
+// module.exports = app;
