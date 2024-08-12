@@ -1,6 +1,6 @@
-import app from './app.js';
+// import app from './app.js';
 
-export default app;
+// export default app;
 // const express = require('express');
 // const app = express();
 
@@ -9,3 +9,6 @@ export default app;
 // app.listen(3000, () => console.log('Server ready on port 3000.'));
 
 // module.exports = app;
+const app = require('./app');
+
+module.exports = app;
